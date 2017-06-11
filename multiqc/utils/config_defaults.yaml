@@ -193,6 +193,7 @@ module_order:
     - 'bowtie1'
     # Pre-alignment QC
     - 'adapterRemoval'
+    - 'atropos'
     - 'cutadapt'
     - 'trimmomatic'
     - 'skewer'

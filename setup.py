@@ -62,6 +62,7 @@ setup(
         'multiqc.modules.v1': [
             'custom_content = multiqc.modules.custom_content:custom_module_classes', # special case
             'adapterRemoval = multiqc.modules.adapterRemoval:MultiqcModule',
+            'atropos = multiqc.modules.atropos:MultiqcModule',
             'bamtools = multiqc.modules.bamtools:MultiqcModule',
             'bcftools = multiqc.modules.bcftools:MultiqcModule',
             'bismark = multiqc.modules.bismark:MultiqcModule',
